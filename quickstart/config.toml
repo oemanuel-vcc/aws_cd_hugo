@@ -1,4 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://awscdhugo.s3.us-east-2.amazonaws.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+
+[[deployment.targets]]
+name = "awsbucket"
+URL = "s3://awscdhugo"
