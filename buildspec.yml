@@ -20,7 +20,7 @@ phases:
             - rm -rf quickstart/public
             - hugo
             - hugo deploy
-    post-build:
+    post_build:
         commands:
             - echo Build completed on `date`
             
